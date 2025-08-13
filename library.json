@@ -1,0 +1,27 @@
+{
+  "name": "YellowBlueDisplay",
+  "version": "1.0.0",
+  "description": "Library dedicated to managin an OLED display attached to an ESP8266 NodeMCU module.",
+  "keywords": "ESP8266, OLED, Scrolling, NodeMCU",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/RanchoHam/YellowBlueDisplay.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Rich McDonald",
+      "email": "reserved",
+      "url": "reserved"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "reserved",
+  "dependencies": {
+	  "adafruit/Adafruit SSD1306": "^2.5.15",
+	  "thingpulse/ESP8266 and ESP32 OLED driver for SSD1306 displays": "^4.6.1"
+  },
+  "frameworks": "Arduino",
+  "platforms": "ESP8266, ESP32"
+}

@@ -12,7 +12,7 @@
 
 - Added changelog
 
-## [1.1.0] - 13 Aug 2025
+## [1.1.0] - 16 Aug 2025
 
 - Added two new overloads to setYellowTitle and printToBufferBlue for const char* arguments
 

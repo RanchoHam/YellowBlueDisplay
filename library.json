@@ -1,6 +1,6 @@
 {
   "name": "YellowBlueDisplay",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Library dedicated to managin an OLED display attached to an ESP8266 NodeMCU module.",
   "keywords": "ESP8266, OLED, Scrolling, NodeMCU",
   "repository":

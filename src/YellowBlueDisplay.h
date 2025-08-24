@@ -22,7 +22,9 @@ public:
     void init(void);
     void clsBufferBlue(void);
     void setTitleYellow(char* strArg);
+    void setTitleYellow(const char* strArg) {setTitleYellow((char*) strArg)};
     void printlnToBufferBlue(char* strArg);
+    void printlnToBufferBlue(const char* strArg) {printlnToBufferBlue((char*) strArg)};
     void showDisplay(void);
     uint8_t  getMaxBufferDepth();
     uint8_t  setMaxBufferDepth(uint8_t depth);
@@ -32,8 +34,9 @@ private:
     int  _mySCL;
     uint8_t  _max_buffer_depth = 10;
     std::vector<std::string> _stringVectorBuffer;
-    std::vector<std::string> _stringBufferTitle;
-
+    std::vector<std::string> _stringTitleBuffer;
+    uint8_t  _LastTitleDepth = 0;
+    uint8_t  _LastVectorDepth = 0;
 };
 
 

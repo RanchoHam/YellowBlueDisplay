@@ -22,9 +22,11 @@ public:
     void init(void);
     void clsBufferBlue(void);
     void setTitleYellow(char* strArg);
+
     void setTitleYellow(const char* strArg) {setTitleYellow((char*) strArg)};
     void printlnToBufferBlue(char* strArg);
     void printlnToBufferBlue(const char* strArg) {printlnToBufferBlue((char*) strArg)};
+
     void showDisplay(void);
     uint8_t  getMaxBufferDepth();
     uint8_t  setMaxBufferDepth(uint8_t depth);

@@ -12,6 +12,11 @@
 
 - Added changelog
 
+## [1.1.0] - 16 Aug 2025
+
+- Added two new overloads to setYellowTitle and printToBufferBlue for const char* arguments
+
 ## [1.1.1] - 23 Aug 2025
 
 - Changed showDisplay to only repaint if no changes
+

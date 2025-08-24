@@ -20,3 +20,6 @@
 
 - Changed showDisplay to only repaint if no changes
 
+## [1.1.2] - 23 Aug 2025
+
+- Fixed nagging errors

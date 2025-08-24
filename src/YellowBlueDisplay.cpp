@@ -24,7 +24,7 @@ void cYellowBlueDisplay :: init(void) {
 
 void cYellowBlueDisplay :: clsBufferBlue(void) {
     _stringVectorBuffer.clear();
-    _LastBufferLength = 0;
+    _LastVectorDepth = 0;
 }
 
 void cYellowBlueDisplay :: printlnToBufferBlue(char* strArg) {

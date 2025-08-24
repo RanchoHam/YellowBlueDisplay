@@ -12,6 +12,6 @@
 
 - Added changelog
 
-## [1.1.0] - 23 Aug 2025
+## [1.1.1] - 23 Aug 2025
 
 - Changed showDisplay to only repaint if no changes
